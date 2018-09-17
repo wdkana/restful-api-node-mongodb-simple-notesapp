@@ -1,0 +1,17 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "description": "my every day notes",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "author": "afrizal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15",
+    "nodemon": "^1.18.4"
+  }
+}
